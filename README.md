@@ -4,13 +4,13 @@ Various scripts that set up my Linux configuration on new machines.
 ## Manual checklist (things to automate)
 
 ### Setup:
-- [x] Syncthing
+- [ ] Syncthing
 	- don't forget file versioning
 - [ ] Vim plugins
 
 ### Login to:
-- [x] Telegram
-- [x] FireFox
+- [ ] Telegram
+- [ ] FireFox
 - [ ] Thunderbird
 - [ ] Riot
 
