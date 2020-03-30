@@ -1,0 +1,5 @@
+#!/usr/bin/env fish
+
+# remove the trash folder for Ranger
+mkdir -p ~/.local/share/Trash/files
+

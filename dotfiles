@@ -1,0 +1,6 @@
+#!/usr/bin/env fish
+
+git clone https://github.com/xiaoxiae/dotfiles tmp
+sudo rsync -r -I -a tmp/ ~/
+mv ~/.git ~/.cfg
+rm -rf tmp/
