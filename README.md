@@ -7,6 +7,7 @@ Various scripts that set up my Linux configuration on new machines.
 - [ ] Syncthing
 	- don't forget file versioning
 - [ ] Vim plugins
+- [ ] SSH keys
 
 ### Login to:
 - [ ] Telegram
