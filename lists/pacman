@@ -11,12 +11,16 @@ flex
 fzf
 gimp
 inkscape
+inotify-tools
 keepassxc
 lilypond
 mono
 mpv
 pandoc
 pavucontrol
+pdftk
+pdt2svg
+pygmentize
 python
 ranger
 redshift
