@@ -3,4 +3,5 @@
 sudo pacman -S (paste lists/pacman)
 yay -S (paste lists/aur)
 pip install (paste lists/pip)
+gem install (paste lists/gems)
 
