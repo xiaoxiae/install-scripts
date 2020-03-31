@@ -13,10 +13,12 @@ gimp
 inkscape
 keepassxc
 lilypond
+mono
 mpv
 pandoc
 python
 ranger
+redshift
 riot-desktop
 rofi
 ruby
@@ -24,6 +26,9 @@ syncthing
 telegram-desktop
 texlive-most
 thunderbird
+tmux
+transmission-gtk
 xournalpp
 zathura
+zathura-pdf-poppler
 zoom
