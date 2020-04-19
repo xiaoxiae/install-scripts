@@ -5,7 +5,6 @@ baobab
 discord
 fd
 feh
-feh
 firefox
 flex
 fzf
@@ -37,8 +36,8 @@ texlive-most
 thunderbird
 tmux
 transmission-gtk
+unzip
 usb_modeswitch
 xournalpp
 zathura
 zathura-pdf-poppler
-zoom
