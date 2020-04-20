@@ -2,6 +2,7 @@ anki
 arduino-cli
 audacity
 baobab
+caprine
 discord
 fd
 feh
@@ -15,13 +16,14 @@ inotify-tools
 keepassxc
 libreoffice-still
 lilypond
+mate-terminal
 maven
 mono
 mpv
 pandoc
 pavucontrol
+pdf2svg
 pdftk
-pdt2svg
 pygmentize
 python
 ranger
