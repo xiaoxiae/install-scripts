@@ -6,13 +6,12 @@ Various scripts that set up my Linux configuration on new machines.
 ### Setup:
 - [ ] Syncthing
 	- don't forget file versioning
-- [ ] Vim plugins
-- [ ] SSH keys
 
 ### Login to:
 - [ ] Telegram
 - [ ] FireFox
 - [ ] Thunderbird
 - [ ] Riot
+- [ ] Caprine
 
 
