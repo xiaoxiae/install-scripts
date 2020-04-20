@@ -1,0 +1,3 @@
+#!/usr/bin/env fish
+
+tar -czvf private.tar.gz -C ~/ .ssh
