@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
-sudo pacman -S (paste lists/pacman)
-yay -S (paste lists/aur)
+sudo pacman --needed -S (paste lists/pacman)
+yay --needed -S (paste lists/aur)
 pip install (paste lists/pip)
 gem install (paste lists/gems)
 
