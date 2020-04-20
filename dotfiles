@@ -4,3 +4,4 @@ git clone https://github.com/xiaoxiae/dotfiles tmp
 sudo rsync -r -I -a tmp/ ~/
 mv ~/.git ~/.cfg
 rm -rf tmp/
+printf "[status]\n\tshowUntrackedFiles = no" >> ~/.cfg/config
