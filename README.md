@@ -9,9 +9,4 @@ Various scripts that set up my Linux configuration on new machines.
 
 ### Login to:
 - [ ] Telegram
-- [ ] FireFox
-- [ ] Thunderbird
-- [ ] Riot
-- [ ] Caprine
-
 

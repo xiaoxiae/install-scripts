@@ -1,3 +1,10 @@
 #!/usr/bin/env fish
 
 tar -xzvf /mnt/private.tar.gz -C ~/
+
+tar -xzvf /mnt/thunderbird.tar.gz -C ~/
+tar -xzvf /mnt/mozilla.tar.gz -C ~/
+
+tar -xzvf /mnt/caprine.tar.gz -C ~/
+tar -xzvf /mnt/riot.tar.gz -C ~/
+tar -xzvf /mnt/discord.tar.gz -C ~/
