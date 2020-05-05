@@ -5,9 +5,9 @@ mkdir -p ~/.local/share/Trash/files
 
 # clone KAM repository
 git clone root@kam.mff.cuni.cz:/aux/admin/GIT/kam.git
-printf "[user]\n\temail = tom@kam.mff.cuni.cz\n\tname = Tomáš Sláma" >> kam/.git/config
+printf "[user]\n\temail = tom@kam.mff.cuni.cz\n\tname = Tomas Slama" >> kam/.git/config
 sudo mv kam /etc/.
 
 git clone root@kam.mff.cuni.cz:/aux/admin/GIT/ucw-debian.git
-printf "[user]\n\temail = tom@kam.mff.cuni.cz\n\tname = Tomáš Sláma" >> ucw-debian/.git/config
+printf "[user]\n\temail = tom@kam.mff.cuni.cz\n\tname = Tomas Slama" >> ucw-debian/.git/config
 sudo mv ucw-debian /etc/.
