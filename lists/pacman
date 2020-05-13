@@ -21,10 +21,12 @@ mate-terminal
 maven
 mono
 mpv
+nodejs
 pandoc
 pavucontrol
 pdf2svg
 pdftk
+pyenv
 pygmentize
 python
 ranger
