@@ -1,4 +1,5 @@
 #!/usr/bin/env fish
+# Clones the dotfiles
 
 git clone https://github.com/xiaoxiae/dotfiles tmp
 sudo rsync -r -I -a tmp/ ~/

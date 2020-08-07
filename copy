@@ -1,4 +1,6 @@
 #!/usr/bin/env fish
+# To be run from /mnt on the source machine.
+# Copies sensitive, non-version-controllable config.
 
 tar -czvf private.tar.gz -C ~/ .ssh
 

@@ -1,4 +1,6 @@
 #!/usr/bin/env fish
+# To be run on the destination machine.
+# Pastes the copied stuff.
 
 tar -xzvf /mnt/private.tar.gz -C ~/
 
