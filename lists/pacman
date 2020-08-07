@@ -1,9 +1,11 @@
 anki
+apache
 arduino-cli
 audacity
 baobab
 caprine
 discord
+dokuwiki
 fd
 feh
 firefox
@@ -26,6 +28,8 @@ pandoc
 pavucontrol
 pdf2svg
 pdftk
+php
+php-apache
 pyenv
 pygmentize
 python
