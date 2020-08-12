@@ -49,6 +49,8 @@ tmux
 transmission-gtk
 unzip
 usb_modeswitch
+xorg-xev
+xorg-xprop
 xournalpp
 zathura
 zathura-pdf-poppler
