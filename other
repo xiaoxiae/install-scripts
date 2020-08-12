@@ -3,7 +3,7 @@
 # create the trash folder for Ranger
 mkdir -p ~/.local/share/Trash/files
 
-# clone KAM repository
+# clone KAM repositories
 git clone root@kam.mff.cuni.cz:/aux/admin/GIT/kam.git
 printf "[user]\n\temail = tom@kam.mff.cuni.cz\n\tname = Tomas Slama" >> kam/.git/config
 sudo mv kam /etc/.
@@ -11,3 +11,6 @@ sudo mv kam /etc/.
 git clone root@kam.mff.cuni.cz:/aux/admin/GIT/ucw-debian.git
 printf "[user]\n\temail = tom@kam.mff.cuni.cz\n\tname = Tomas Slama" >> ucw-debian/.git/config
 sudo mv ucw-debian /etc/.
+
+# colorize pacman
+sudo sed -i "s/#Color/Color/g" /etc/pacman.conf
