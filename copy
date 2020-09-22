@@ -1,12 +1,9 @@
 #!/usr/bin/env fish
 # To be run from /mnt on the source machine.
-# Copies sensitive, non-version-controllable config.
+# Copies sensitive, non-version-controllable configuration files.
 
-tar -czvf private.tar.gz -C ~/ .ssh
+tar -czvf ssh.tar.gz -C ~/ .ssh
+tar -czvf keyrings.tar.gz -C ~/ .local/share/keyrings
 
-tar -czvf thunderbird.tar.gz -C ~/ .thunderbird
-tar -czvf mozilla.tar.gz -C ~/ .mozilla
-
-tar -czvf caprine.tar.gz -C ~/ .config/Caprine
 tar -czvf riot.tar.gz -C ~/ .config/Riot
 tar -czvf discord.tar.gz -C ~/ .config/discord

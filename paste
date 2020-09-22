@@ -2,11 +2,10 @@
 # To be run on the destination machine.
 # Pastes the copied stuff.
 
-tar -xzvf /mnt/private.tar.gz -C ~/
+tar -xzvf /mnt/ssh.tar.gz -C ~/
+tar -xzvf /mnt/keyrings.tar.gz -C ~/
 
 tar -xzvf /mnt/thunderbird.tar.gz -C ~/
 tar -xzvf /mnt/mozilla.tar.gz -C ~/
 
-tar -xzvf /mnt/caprine.tar.gz -C ~/
-tar -xzvf /mnt/riot.tar.gz -C ~/
 tar -xzvf /mnt/discord.tar.gz -C ~/
