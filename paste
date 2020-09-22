@@ -1,11 +1,7 @@
 #!/usr/bin/env fish
-# To be run on the destination machine.
-# Pastes the copied stuff.
+# To be run from /mnt on the destination machine.
+# Pastes the copied configuration files.
 
-tar -xzvf /mnt/ssh.tar.gz -C ~/
-tar -xzvf /mnt/keyrings.tar.gz -C ~/
-
-tar -xzvf /mnt/thunderbird.tar.gz -C ~/
-tar -xzvf /mnt/mozilla.tar.gz -C ~/
-
-tar -xzvf /mnt/discord.tar.gz -C ~/
+for file in *.tar.gz
+	tar -xzvf $file -C ~/
+end
