@@ -5,3 +5,5 @@
 for file in *.tar.gz
 	tar -xzvf $file -C ~/
 end
+
+sudo rsync -avz crontab /etc/.

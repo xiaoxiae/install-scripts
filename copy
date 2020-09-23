@@ -7,3 +7,5 @@ tar -czvf keyrings.tar.gz -C ~/ .local/share/keyrings
 
 tar -czvf riot.tar.gz -C ~/ .config/Riot
 tar -czvf discord.tar.gz -C ~/ .config/discord
+
+sudo rsync -avz /etc/crontab .
