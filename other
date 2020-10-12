@@ -14,3 +14,7 @@ sudo mv ucw-debian /etc/.
 
 # colorize pacman
 sudo sed -i "s/#Color/Color/g" /etc/pacman.conf
+
+# install rust-nightly and leetcode-cli
+rustup install nightly
+cargo +nightly install leetcode-cli
