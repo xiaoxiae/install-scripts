@@ -2,10 +2,10 @@
 # To be run from /mnt on the source machine.
 # Copies sensitive, non-version-controllable configuration files.
 
-tar -czvf ssh.tar.gz -C ~/ .ssh
-tar -czvf keyrings.tar.gz -C ~/ .local/share/keyrings
+tar -czvf ssh.tar.gz -C /home/xiaoxiae/ .ssh
+tar -czvf keyrings.tar.gz -C /home/xiaoxiae/ .local/share/keyrings
 
-tar -czvf riot.tar.gz -C ~/ .config/Riot
-tar -czvf discord.tar.gz -C ~/ .config/discord
+tar --exclude='.config/riot/Cache' -czvf riot.tar.gz -C /home/xiaoxiae/ .config/Riot
+tar --exclude='.config/discord/Cache' --exclude='.config/discord/Code Cache' -czvf discord.tar.gz -C /home/xiaoxiae/ .config/discord
 
 sudo rsync -avz /etc/crontab .

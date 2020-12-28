@@ -3,7 +3,7 @@
 # Pastes the copied configuration files.
 
 for file in *.tar.gz
-	tar -xzvf $file -C ~/
+	tar -xzvf $file -C /home/xiaoxiae/
 end
 
 sudo rsync -avz crontab /etc/.
