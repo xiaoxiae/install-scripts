@@ -1,6 +1,8 @@
+httplib2
 pylint
 qtmodern
 twine
+typesentry
 unidecode
 virtualenv
 wheel
