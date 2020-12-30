@@ -3,5 +3,5 @@
 sudo pacman --needed -S (paste lists/pacman)
 yay --needed -S (paste lists/aur)
 pip install (paste lists/pip)
-gem install (paste lists/gems)
+fish -c `gem install (paste lists/gems)`
 
