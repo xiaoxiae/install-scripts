@@ -1,5 +1,4 @@
 anki
-apache
 arduino-cli
 audacity
 baobab
@@ -35,8 +34,6 @@ pandoc
 pavucontrol
 pdf2svg
 pdftk
-php
-php-apache
 pyenv
 pygmentize
 pypy3
@@ -53,11 +50,9 @@ syncthing
 tcpdump
 telegram-desktop
 texlive-most
-thunderbird
 tmux
 transmission-gtk
 unzip
-usb_modeswitch
 xorg-xev
 xorg-xprop
 xournalpp
