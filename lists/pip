@@ -1,5 +1,7 @@
 httplib2
+pyflakes
 pylint
+python-language-server
 qtmodern
 twine
 typesentry
