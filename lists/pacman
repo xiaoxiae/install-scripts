@@ -52,6 +52,9 @@ telegram-desktop
 texlive-most
 tmux
 transmission-gtk
+ttf-fira-code
+ttf-fira-mono
+ttf-fira-sans
 unzip
 xorg-xev
 xorg-xprop
