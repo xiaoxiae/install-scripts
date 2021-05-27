@@ -1,5 +1,6 @@
 httplib2
 pyflakes
+pygithub
 pylint
 python-language-server
 qtmodern
