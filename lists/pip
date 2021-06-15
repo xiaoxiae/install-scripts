@@ -4,6 +4,7 @@ pygithub
 pylint
 python-language-server
 qtmodern
+scour
 twine
 typesentry
 unidecode
